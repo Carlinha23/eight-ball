@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 100vh; /* Set the height of the body to the full viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.eight-ball {
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    border-radius: 50%; /* Make it round */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .message {
+    font-size: 18px;
+    text-align: center;
+    color: white; /* Text color */
+    margin: 0;
+  }
+  
+  /* Add additional styles for different colors */
+  .eight-ball.green {
+    background-color: green;
+  }
+  
+  .eight-ball.goldenrod {
+    background-color: goldenrod;
+  }
+  
+  .eight-ball.red {
+    background-color: red;
+  }
+  
